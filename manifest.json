@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Tab Merger",
+  "version": "1.0",
+  "description": "Merges all open windows and tabs into a single window",
+  "permissions": ["tabs"],
+  "browser_action": {
+    "default_title": "Merge Tabs"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
